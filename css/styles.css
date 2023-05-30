@@ -10,9 +10,14 @@
     --fs-900: 5.5rem;
 
     --fw-primary: 500;
-    --fw-bold: 700;
+    --fw-bold: 700; 
 
-    
+    --clr-active: hsl(153, 71%, 59%);
+
+    --clr-primary-100: hsl(0, 0%, 100%);
+    --clr-primary-200: hsl(0, 0%, 85%);
+    --clr-primary-500: hsl(0, 0%, 14%);
+    --clr-primary-900: hsl(0, 0%, 8%);
 }
 
 
