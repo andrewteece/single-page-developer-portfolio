@@ -4,25 +4,25 @@
     
     --ff-primary: 'Space Grotesk', sans-serif;
 
+    --fs-300: 1rem;
     --fs-400: 1.125rem; 
     --fs-500: 1.5rem;
-    --fs-700: 3rem;
+    --fs-600: 2rem;
+    --fs-700: 2.5rem;
+    --fs-800: 3rem;
     --fs-900: 5.5rem;
 
     --fw-primary: 500;
     --fw-bold: 700; 
 
     --clr-active: hsl(153, 71%, 59%);
+    --clr-invalid: hsl(7, 100%, 68%); 
 
     --clr-primary-100: hsl(0, 0%, 100%);
     --clr-primary-200: hsl(0, 0%, 85%);
     --clr-primary-500: hsl(0, 0%, 14%);
     --clr-primary-900: hsl(0, 0%, 8%);
 }
-
-
-
-
 
 /*   https://www.joshwcomeau.com/css/custom-css-reset/    /*
 
@@ -76,4 +76,13 @@
   */
   #root, #__next {
     isolation: isolate;
+  }
+
+  /* GENERAL/BODY STYLES */
+
+  body {
+    background-color: var(--clr-primary-900);
+    color: var(--clr-primary-200);
+    font-size: var(--fs-400);
+    line-height: 1.75rem;
   }
