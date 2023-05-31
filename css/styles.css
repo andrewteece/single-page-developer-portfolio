@@ -97,6 +97,14 @@ h6 {
   isolation: isolate;
 }
 
+/*
+    10. Link resets
+  */
+
+  a {
+    text-decoration: none;
+  }
+
 /* GLOBAL STYLES */
 
 body {
@@ -113,10 +121,29 @@ body {
   margin-inline: auto;
 }
 
-/* LAYOUT STYLES */
+/* HEADER STYLES */
 
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
-.main__header {
-    
+    outline: 2px solid red;
 }
-/* UTILTIY CLASSES */
+
+.header__home {
+    color: var(--clr-primary-100);
+    font-size: var(--fs-500);
+
+    outline: 2px solid lime;
+}
+
+.social__links {
+    display: inline-block;
+
+    outline: 2px solid blue;
+}
+
+/* UTILITY CLASSES */
+
+
