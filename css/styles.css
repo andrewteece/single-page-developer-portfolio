@@ -123,25 +123,35 @@ body {
 
 /* HEADER STYLES */
 
-.header__nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    outline: 2px solid red;
+.main__header {
+    padding-top: var(--fs-200);
 }
 
 .header__home {
+    padding-bottom: var(--fs-200);
     color: var(--clr-primary-100);
-    font-size: var(--fs-500);
 
-    outline: 2px solid lime;
 }
 
-.social__links {
-    display: inline-block;
+.header__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    outline: 2px solid blue;
+.social__wrapper {
+    display: inline-flex;
+}
+
+.social__wrapper li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 1.25rem;
+    
+
 }
 
 /* UTILITY CLASSES */
